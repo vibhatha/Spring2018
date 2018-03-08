@@ -1,0 +1,12 @@
+[package]
+name = "kafkaesque"
+version = "0.1.0"
+authors = ["Frank McSherry <fmcsherry@me.com>"]
+
+[dependencies]
+clap="*"
+abomonation="0.4.5"
+timely="0.3.0"
+
+[dependencies.rdkafka]
+version = "0.13.0"
